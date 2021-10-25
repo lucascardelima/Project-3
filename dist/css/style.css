@@ -55,12 +55,13 @@
   margin: 2em 1em 3em 1em;
   background: #9356dc;
   background: linear-gradient(353deg, #9356dc 0%, #ff79da 100%);
-  width: 15em;
-  height: 3.8em;
+  width: 250px;
+  height: 60px;
   color: #fff;
-  font-size: 1.2em;
+  line-height: 3.8em;
   border-radius: 35px;
   border: none;
+  font-size: 18px;
   font-family: "Roboto";
   display: flex;
   justify-content: center;
