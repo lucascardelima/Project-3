@@ -1,0 +1,71 @@
+.briefing {
+    @include center(column);
+
+}
+
+.location-selector {
+    @include center(row);
+    background-color: $secondary-background-color;
+    width: 100vw;
+    height: 60px;
+    box-shadow: inset 0px 4px 3px lightgrey;
+    ;
+    i {
+        padding: 0em 0.5em;
+        font-size: 1.2em;
+    }
+
+    &__place {
+        padding: 0em 0.5em;
+        font-size: 1.2em;
+    }
+
+}
+
+.description {
+    @include center(column);
+    width: 100vw;
+    background-color: $primary-background-color;
+
+ 
+    &__heading {
+        font-family: map-get($fonts, text);
+        margin: 2em 1em 0em 1em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 1.2em;
+        margin: 2em 1.8em 0em 1.8em;
+        color:black;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    &__button {
+        margin: 2em 1em 3em 1em;
+        background: rgb(147,86,220);
+        background: linear-gradient(353deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+        width: 15em;
+        height: 3.8em;
+        color: #fff;
+        font-size: 1.2em;
+        border-radius: 35px;
+        border: none;
+        font-family: map-get($fonts, text);
+        @include center(row);
+    }
+}
+
+.tutorial {
+    width: 100vw;
+
+    &__heading {
+        font-family: map-get($fonts, text);
+        text-align: left;
+    }
+}
+
+
+
