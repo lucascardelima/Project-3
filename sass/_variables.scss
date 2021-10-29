@@ -21,3 +21,7 @@ $fonts: (
     align-items: center;
     flex-direction: $direction;
 }
+
+@mixin box-shaddow {
+    box-shadow: 3px 7px 8px lightgrey;
+}
