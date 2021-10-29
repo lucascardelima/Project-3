@@ -116,12 +116,12 @@
 
     &__heading {
         @include title-style;
-        padding-top: 60px;
-
+        padding-top: 0px;
     }
 
     &__cards-container {
-        margin: $main-vertical-margin $main-horizontal-margin;
+        padding: $main-vertical-margin $main-horizontal-margin;
+        
     }
 
     
@@ -131,6 +131,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     
     text-decoration: none;
     font-family: map-get($fonts, "text");    
@@ -202,7 +203,7 @@
     background-color: $footer-background-color;
     
     &__container{
-        margin: $main-vertical-margin $main-horizontal-margin;
+        margin: 0 $main-horizontal-margin;
     }
 
     &__logo {
