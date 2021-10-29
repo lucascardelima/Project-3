@@ -25,3 +25,10 @@ $fonts: (
 @mixin box-shaddow {
     box-shadow: 3px 7px 8px lightgrey;
 }
+
+@mixin title-style {
+    font-size: $title-font-size;
+    font-family: map-get($fonts, text);
+    text-align: left;
+    margin-bottom: 30px;
+}

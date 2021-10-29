@@ -69,10 +69,7 @@
     } 
    
     &__heading {
-        font-size: $title-font-size;
-        font-family: map-get($fonts, text);
-        text-align: left;
-        margin-bottom: 30px;
+        @include title-style;
     }
 
     &__step {
@@ -110,6 +107,91 @@
             padding-left: 0.7em;
             
         }
+    }
+}
+
+.restaurants {
+    width: 100vw;
+    background-color: $primary-background-color;
+
+    &__heading {
+        @include title-style;
+        padding-top: 60px;
+
+    }
+
+    &__cards-container {
+        margin: $main-vertical-margin $main-horizontal-margin;
+    }
+
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    text-decoration: none;
+    font-family: map-get($fonts, "text");    
+    margin-bottom: 30px;   
+
+    &__image {
+        object-fit: cover;
+        width: 100%;
+        height: 230px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-position: 0 60%;
+    }
+
+    &__description-container {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: white;
+       
+        @include box-shaddow;
+    }
+
+    &__description-text {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0 20px 20px;
+        h3 {
+            font-size: 1.5em;
+            color: black;
+            margin-bottom: 6px;
+        }
+        p {
+            font-weight: 100;
+            font-size: 1.4em;
+            color: black;
+            margin-bottom: 7px;
+        }
+    }
+
+    &__heart-icon {
+        @include center(row);
+        margin: 0px 30px;
+        font-size: 1.8em;
+        color: black;
+        
+    }
+
+    &__badge {
+        z-index: 2;
+        width: 110px;
+        height: 40px;
+        border-radius: 3px;
+        @include center(row);
+        background-color: lighten($tertiary-color, 5);
+        color: darken($tertiary-color, 40);
+        font-weight: 400;
+        font-size: 1.2em;
     }
 }
 
