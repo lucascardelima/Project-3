@@ -41,11 +41,11 @@
 .description__heading {
   font-family: "Roboto";
   margin: 1.8rem 1rem 0rem 1rem;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   text-align: center;
 }
 .description__text {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin: 2rem 1.8rem 0rem 1.8rem;
   color: black;
   text-align: center;
@@ -78,7 +78,7 @@
   margin: 60px 30px;
 }
 .tutorial__heading {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-family: "Roboto";
   text-align: left;
   margin-bottom: 30px;
@@ -108,17 +108,17 @@
   align-items: center;
   flex-direction: row;
   color: gray;
-  padding: 0rem 1.2rem;
-  font-size: 1.6rem;
-  width: 1rem;
+  padding: 0rem 1.1rem;
+  font-size: 1.2rem;
+  width: 0.8rem;
 }
 .tutorial__step__text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  font-size: 1.3rem;
-  padding-left: 0.7rem;
+  font-size: 1.1rem;
+  padding-left: 0.6rem;
 }
 
 .restaurants {
@@ -126,7 +126,7 @@
   background-color: #f6f6f6;
 }
 .restaurants__heading {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-family: "Roboto";
   text-align: left;
   margin-bottom: 30px;
@@ -148,7 +148,7 @@
 .cards__image {
   object-fit: cover;
   width: 100%;
-  height: 230px;
+  height: 200px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-position: 0 60%;
@@ -169,13 +169,13 @@
   padding: 20px 0 20px 20px;
 }
 .cards__description-text h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
   margin-bottom: 6px;
 }
 .cards__description-text p {
   font-weight: 100;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: black;
   margin-bottom: 7px;
 }
@@ -205,7 +205,7 @@
 
 .footer {
   width: 100vw;
-  height: 30vh;
+  height: 45vh;
   color: white;
   background-color: #353535;
 }
