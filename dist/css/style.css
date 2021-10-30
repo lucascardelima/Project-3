@@ -214,15 +214,15 @@
 }
 .footer__logo {
   font-family: "Shrikhand";
-  font-size: 1.5rrem;
-  padding: 1.9rrem 0rrem;
+  font-size: 1.5rem;
+  padding: 1.9rem 0rem;
 }
 .footer__icon {
-  padding-right: 0.8rrem;
+  padding-right: 0.8rem;
 }
 .footer p {
-  font-size: 1.3rrem;
-  margin-bottom: 0.8rrem;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
 }
 
 .fa-utensils {
