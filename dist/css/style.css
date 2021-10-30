@@ -22,12 +22,12 @@
   box-shadow: inset 0px 4px 3px lightgrey;
 }
 .location-selector i {
-  padding: 0em 0.5em;
-  font-size: 1.2em;
+  padding: 0rem 0.5rem;
+  font-size: 1.2rem;
 }
 .location-selector__place {
-  padding: 0em 0.5em;
-  font-size: 1.2em;
+  padding: 0rem 0.5rem;
+  font-size: 1.2rem;
 }
 
 .description {
@@ -40,25 +40,25 @@
 }
 .description__heading {
   font-family: "Roboto";
-  margin: 1.8em 1em 0em 1em;
+  margin: 1.8rem 1rem 0rem 1rem;
   font-size: 1.8em;
   text-align: center;
 }
 .description__text {
-  font-size: 1.4em;
-  margin: 2em 1.8em 0em 1.8em;
+  font-size: 1.4rem;
+  margin: 2rem 1.8rem 0rem 1.8rem;
   color: black;
   text-align: center;
   font-weight: 300;
 }
 .description__button {
-  margin: 2em 1em 3em 1em;
+  margin: 2rem 1rem 3rem 1rem;
   background: #9356dc;
   background: linear-gradient(353deg, #9356dc 0%, #ff79da 100%);
   width: 250px;
   height: 60px;
   color: #fff;
-  line-height: 3.8em;
+  line-height: 3.8rem;
   border-radius: 35px;
   border: none;
   font-size: 19px;
@@ -100,7 +100,7 @@
   padding: 5px 11px;
   position: relative;
   right: 15px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .tutorial__step__icon {
   display: flex;
@@ -108,17 +108,17 @@
   align-items: center;
   flex-direction: row;
   color: gray;
-  padding: 0em 1.2em;
-  font-size: 1.6em;
-  width: 1em;
+  padding: 0rem 1.2rem;
+  font-size: 1.6rem;
+  width: 1rem;
 }
 .tutorial__step__text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  font-size: 1.3em;
-  padding-left: 0.7em;
+  font-size: 1.3rem;
+  padding-left: 0.7rem;
 }
 
 .restaurants {
@@ -169,13 +169,13 @@
   padding: 20px 0 20px 20px;
 }
 .cards__description-text h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: black;
   margin-bottom: 6px;
 }
 .cards__description-text p {
   font-weight: 100;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: black;
   margin-bottom: 7px;
 }
@@ -185,7 +185,7 @@
   align-items: center;
   flex-direction: row;
   margin: 0px 30px;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: black;
 }
 .cards__badge {
@@ -200,7 +200,7 @@
   background-color: #ade8d9;
   color: #278870;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -214,15 +214,15 @@
 }
 .footer__logo {
   font-family: "Shrikhand";
-  font-size: 1.5rem;
-  padding: 1.9rem 0rem;
+  font-size: 1.5rrem;
+  padding: 1.9rrem 0rrem;
 }
 .footer__icon {
-  padding-right: 0.8rem;
+  padding-right: 0.8rrem;
 }
 .footer p {
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
+  font-size: 1.3rrem;
+  margin-bottom: 0.8rrem;
 }
 
 .fa-utensils {
