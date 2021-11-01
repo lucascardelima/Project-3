@@ -1,0 +1,28 @@
+.menu-header {
+    max-width: 100vw;
+    height: 3.8rem;
+    @include center(row);
+
+    &__home-btn {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        position: fixed;
+        left: 25px;
+        top: 22px;
+
+    }
+
+    &__logo {
+        padding: 5px 0 0 0;
+        font-size: 1.8rem;
+        font-family: map-get($fonts, "logo");
+    }
+}
+
+.menu-foto {
+    width: 100vw;
+    height: 30vh;
+    object-fit: cover;
+
+}

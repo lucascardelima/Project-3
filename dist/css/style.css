@@ -229,11 +229,40 @@
   padding-right: 9.1px;
 }
 
+.menu-header {
+  max-width: 100vw;
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.menu-header__home-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  position: fixed;
+  left: 25px;
+  top: 22px;
+}
+.menu-header__logo {
+  padding: 5px 0 0 0;
+  font-size: 1.8rem;
+  font-family: "Shrikhand";
+}
+
+.menu-foto {
+  width: 100vw;
+  height: 30vh;
+  object-fit: cover;
+}
+
 .header {
   max-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 .header__logo {
   padding: 0.5em 0em 0.3em 0em;
