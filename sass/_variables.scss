@@ -17,6 +17,11 @@ $fonts: (
     "text": 'Roboto'
 );
 
+$font-weight: (
+    "light": 400,
+    "regular": 700
+);
+
 @mixin center($direction) {
     display: flex;
     justify-content: center;
