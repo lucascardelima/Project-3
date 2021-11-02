@@ -236,12 +236,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background-color: white;
 }
 .menu-header__home-btn {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
-  position: fixed;
+  position: absolute;
   left: 25px;
   top: 22px;
 }
@@ -253,8 +254,92 @@
 
 .menu-foto {
   width: 100vw;
-  height: 30vh;
+  height: 40vh;
   object-fit: cover;
+}
+
+.menu-section {
+  position: relative;
+  top: -50px;
+  width: 100vw;
+  background-color: #f6f6f6;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.menu-container {
+  width: 93%;
+  margin: auto;
+  padding-top: 2rem;
+}
+.menu-container__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  font-family: "Shrikhand";
+  padding-left: 0.3rem;
+  padding-bottom: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+.menu-container__like-btn {
+  padding-right: 1rem;
+}
+
+.course {
+  font-family: "Roboto";
+}
+.course__title {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0rem 0rem 1.3rem 0.4rem;
+}
+
+.meal {
+  background-color: white;
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 1.1rem;
+  box-shadow: 3px 7px 8px lightgrey;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.meal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.7rem 0.8rem 0.7rem 0.7rem;
+  width: 100%;
+  height: 100%;
+}
+.meal-container__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.meal-container__title {
+  font-size: 1.1rem;
+}
+.meal__price {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+}
+.meal__selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #99E2D0;
+  border-top-right-radius: 1.1rem;
+  border-bottom-right-radius: 1.1rem;
+}
+.meal__selector i {
+  color: white;
+  font-size: 1.2rem;
 }
 
 .header {
