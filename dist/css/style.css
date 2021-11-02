@@ -203,28 +203,6 @@
   font-size: 1.2rem;
 }
 
-.footer {
-  width: 100vw;
-  height: 45vh;
-  color: white;
-  background-color: #353535;
-}
-.footer__container {
-  margin: 0 30px;
-}
-.footer__logo {
-  font-family: "Shrikhand";
-  font-size: 1.5rem;
-  padding: 1.9rem 0rem;
-}
-.footer__icon {
-  padding-right: 0.8rem;
-}
-.footer p {
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
-}
-
 .fa-utensils {
   padding-right: 9.1px;
 }
