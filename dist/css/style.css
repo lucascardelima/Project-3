@@ -75,7 +75,7 @@
   width: 100vw;
 }
 .tutorial__container {
-  margin: 60px 30px;
+  margin: 60px 1.2rem 60px 30px;
 }
 .tutorial__heading {
   font-size: 1.8rem;
@@ -87,11 +87,18 @@
   display: flex;
   flex-direction: row;
   background-color: #f6f6f6;
-  padding: 32px 0px;
+  padding: 1.8rem 0rem;
   margin-bottom: 35px;
   margin-left: 10px;
   border-radius: 25px;
+  cursor: grab;
   box-shadow: 3px 7px 8px lightgrey;
+}
+.tutorial__step:hover {
+  background-color: #f2eafb;
+}
+.tutorial__step:hover .tutorial__step__icon {
+  color: #9356DC;
 }
 .tutorial__step__counters {
   color: white;
