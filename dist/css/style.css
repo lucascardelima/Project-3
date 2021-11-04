@@ -73,6 +73,7 @@
 
 .tutorial {
   width: 100vw;
+  background-color: white;
 }
 .tutorial__container {
   margin: 60px 1.2rem 60px 30px;
