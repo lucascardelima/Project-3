@@ -1,3 +1,7 @@
+body {
+    background-color: $primary-background-color;
+}
+
 .menu-header {
     max-width: 100vw;
     height: 3.8rem;
@@ -29,7 +33,7 @@
 
 .menu-section {
     position: relative;
-    top: -50px;
+    top: -2.5rem;
     width: 100vw;
     height: 100%;
     background-color: $primary-background-color;
@@ -64,7 +68,7 @@
 
 .course {
     font-family: map-get($fonts, "text");
-    margin-bottom: 2.7rem;
+    margin-bottom: 2rem;
 
     &__title {
         font-weight: map-get($font-weight, "light");
@@ -143,7 +147,7 @@
 }
 
 .order-btn {
-    margin: 2rem auto;
+    margin: 1rem auto;
     background: rgb(147,86,220);
     background: linear-gradient(353deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
     width: 220px;

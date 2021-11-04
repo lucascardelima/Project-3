@@ -214,6 +214,10 @@
   padding-right: 9.1px;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
 .menu-header {
   max-width: 100vw;
   height: 3.8rem;
@@ -245,7 +249,7 @@
 
 .menu-section {
   position: relative;
-  top: -50px;
+  top: -2.5rem;
   width: 100vw;
   height: 100%;
   background-color: #f6f6f6;
@@ -275,7 +279,7 @@
 
 .course {
   font-family: "Roboto";
-  margin-bottom: 2.7rem;
+  margin-bottom: 2rem;
 }
 .course__title {
   font-weight: 400;
@@ -338,7 +342,7 @@
 }
 
 .order-btn {
-  margin: 2rem auto;
+  margin: 1rem auto;
   background: #9356dc;
   background: linear-gradient(353deg, #9356dc 0%, #ff79da 100%);
   width: 220px;
