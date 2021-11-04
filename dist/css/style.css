@@ -63,7 +63,7 @@
   border: none;
   font-size: 19px;
   font-family: "Roboto";
-  box-shadow: 3px 7px 8px lightgrey;
+  box-shadow: 7px 7px 15px lightgrey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@
   margin-left: 10px;
   border-radius: 25px;
   cursor: grab;
-  box-shadow: 3px 7px 8px lightgrey;
+  box-shadow: 7px 7px 15px lightgrey;
 }
 .tutorial__step:hover {
   background-color: #f2eafb;
@@ -169,7 +169,7 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: white;
-  box-shadow: 3px 7px 8px lightgrey;
+  box-shadow: 7px 7px 15px lightgrey;
 }
 .cards__description-text {
   display: flex;
@@ -249,7 +249,7 @@ body {
 
 .menu-section {
   position: relative;
-  top: -2.5rem;
+  top: -3.4rem;
   width: 100vw;
   height: 100%;
   background-color: #f6f6f6;
@@ -292,7 +292,7 @@ body {
   width: 100%;
   height: 4.5rem;
   border-radius: 1.1rem;
-  box-shadow: 3px 7px 8px lightgrey;
+  box-shadow: 7px 7px 15px lightgrey;
   text-decoration: none;
   color: black;
   display: flex;
@@ -357,7 +357,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  box-shadow: 3px 7px 8px lightgrey;
+  box-shadow: 7px 7px 15px lightgrey;
   cursor: grab;
 }
 
