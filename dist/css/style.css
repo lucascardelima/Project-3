@@ -1,3 +1,13 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -303,12 +313,26 @@ body {
   border-radius: 1.1rem;
   cursor: grab;
   overflow: hidden;
-  box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
   text-decoration: none;
   color: black;
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  animation: slideIn 1s ease-in;
+  animation-fill-mode: backwards;
+  box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
+}
+.meal--delay1 {
+  animation-delay: 0.2s;
+}
+.meal--delay2 {
+  animation-delay: 0.4s;
+}
+.meal--delay3 {
+  animation-delay: 0.6s;
+}
+.meal--delay4 {
+  animation-delay: 0.8s;
 }
 .meal:hover .meal__selector {
   transform: translateX(0);

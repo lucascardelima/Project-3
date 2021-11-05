@@ -68,6 +68,7 @@ body {
 .course {
     font-family: map-get($fonts, "text");
     margin-bottom: 2rem;
+    
 
     &__title {
         font-weight: map-get($font-weight, "light");
@@ -93,20 +94,26 @@ body {
     border-radius: 1.1rem;
     cursor: grab;
     overflow: hidden;
-
-    &:hover &__selector {
-        transform: translateX(0);
-    }
-
-    @include box-shaddow;
-
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
-
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;  
+    animation: slideIn 1s ease-in; 
+    animation-fill-mode: backwards;
     
+
+    @for $i from 1 through 4 {
+        &--delay#{$i} {
+            animation-delay: ($i * 0.2s);
+        }
+    }
+
+    @include box-shaddow;
+
+    &:hover &__selector {
+        transform: translateX(0);
+    }
 
     &-container {
         display: flex;
@@ -135,8 +142,6 @@ body {
         
     }
 
-    
-
     &__price {
         display: flex;
         align-items: flex-end;
@@ -164,6 +169,7 @@ body {
         }
     }
 }
+
 
 .order-btn {
     margin: 1rem auto;
