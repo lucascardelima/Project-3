@@ -286,6 +286,15 @@ body {
   font-size: 1rem;
   padding: 0rem 0rem 1.3rem 0.4rem;
 }
+.course__title::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0.3rem;
+  width: 2.5rem;
+  height: 0.15rem;
+  background-color: #99E2D0;
+}
 
 .meal {
   background-color: white;
