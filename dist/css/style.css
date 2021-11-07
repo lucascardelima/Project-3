@@ -335,14 +335,17 @@ body {
   animation-delay: 0.8s;
 }
 .meal:hover .meal__selector {
-  transform: translateX(0);
+  margin-right: 0px;
+}
+.meal:hover .meal__icon-wraper {
+  transform: rotate(-360deg);
 }
 .meal-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0.7rem 0.8rem 0.7rem 0.7rem;
-  width: 85%;
+  width: 100%;
   height: 100%;
 }
 .meal-container__text {
@@ -368,18 +371,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 70px;
   height: 4.5rem;
   background-color: #99E2D0;
   border-top-right-radius: 1.1rem;
   border-bottom-right-radius: 1.1rem;
-  transform: translateX(100%);
-  transform-origin: right;
+  margin-right: -70px;
   transition: all 0.5s ease-in-out;
 }
 .meal__selector i {
   color: white;
   font-size: 1.2rem;
+}
+.meal__icon-wraper {
+  transition: all 0.5s ease-in-out;
 }
 
 .order-btn {
