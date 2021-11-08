@@ -56,18 +56,25 @@ $font-weight: (
     }
 }
 
-@mixin media-m {
-    @media screen and (min-width: 375px) {
+@mixin media-s {
+    @media all and (min-width: 375px) {
         @content;
     }
 }
+
+@mixin media-m {
+    @media all and (min-width: 540px) {
+        @content;
+    }
+}
+
 @mixin media-l {
-    @media screen and (min-width: 375px) {
+    @media all and (min-width: 1120px) {
         @content;
     }
 }
 @mixin media-xl {
-    @media screen and (min-width: 375px) {
+    @media all and (min-width: 375px) {
         @content;
     }
 }
