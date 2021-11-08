@@ -1,0 +1,33 @@
+@include media-m {
+
+    .tutorial {
+        &__container {
+            max-width: 500px;
+            margin: $main-vertical-margin auto;
+        }
+    }
+
+}
+
+@include media-l {
+   .tutorial {
+
+    &__container {
+        max-width: 1024px;
+        margin: $main-vertical-margin auto;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+    }
+
+    &__step {
+        width: 320px;
+    }
+   }
+   
+}

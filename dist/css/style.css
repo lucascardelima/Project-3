@@ -414,6 +414,26 @@ body {
   cursor: grab;
 }
 
+@media all and (min-width: 540px) {
+  .tutorial__container {
+    max-width: 500px;
+    margin: 60px auto;
+  }
+}
+@media all and (min-width: 1120px) {
+  .tutorial__container {
+    max-width: 1024px;
+    margin: 60px auto;
+  }
+  .tutorial__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tutorial__step {
+    width: 320px;
+  }
+}
 .header {
   max-width: 100vw;
   height: 4.5rem;
