@@ -353,15 +353,17 @@ body {
   height: 100%;
 }
 .meal-container__text {
-  width: 85%;
+  max-width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .meal-container__title {
+  max-width: 100%;
   font-size: 1.1rem;
 }
 .meal-container__addition {
+  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -369,6 +371,7 @@ body {
 .meal__price {
   display: flex;
   align-items: flex-end;
+  max-width: 100%;
   font-weight: 700;
 }
 .meal__selector {
