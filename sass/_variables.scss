@@ -55,3 +55,19 @@ $font-weight: (
         opacity: 1;
     }
 }
+
+@mixin media-m {
+    @media screen and (min-width: 375px) {
+        @content;
+    }
+}
+@mixin media-l {
+    @media screen and (min-width: 375px) {
+        @content;
+    }
+}
+@mixin media-xl {
+    @media screen and (min-width: 375px) {
+        @content;
+    }
+}
