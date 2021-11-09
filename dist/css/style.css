@@ -414,10 +414,15 @@ body {
   cursor: grab;
 }
 
-@media all and (min-width: 540px) {
+@media all and (min-width: 560px) {
   .tutorial__container {
-    max-width: 500px;
+    max-width: 510px;
     margin: 60px auto;
+  }
+
+  .restaurants__cards-container {
+    max-width: 560px;
+    margin: 0 auto;
   }
 }
 @media all and (min-width: 1120px) {

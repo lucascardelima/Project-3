@@ -2,9 +2,14 @@
 
     .tutorial {
         &__container {
-            max-width: 500px;
+            max-width: 510px;
             margin: $main-vertical-margin auto;
         }
+    }
+
+    .restaurants__cards-container {
+        max-width: 560px;
+        margin: 0 auto;
     }
 
 }
@@ -29,5 +34,7 @@
         width: 320px;
     }
    }
+
+   
    
 }
