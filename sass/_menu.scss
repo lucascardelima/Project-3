@@ -99,14 +99,14 @@ body {
     display: flex;    
     align-items: center;
     margin-bottom: 1rem;  
-    animation: slideIn 1s ease-in; 
+    animation: slideIn 1s ease-in-out; 
     animation-fill-mode: backwards;
     
     
 
     @for $i from 1 through 4 {
         &--delay#{$i} {
-            animation-delay: ($i * 0.2s);
+            animation-delay: ($i * 0.1s);
         }
     }
 
