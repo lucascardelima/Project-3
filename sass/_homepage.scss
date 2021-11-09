@@ -129,11 +129,11 @@
 
     &__heading {
         @include title-style;
-        padding-top: 0px;
+        padding: $main-vertical-margin $main-horizontal-margin 0 $main-horizontal-margin;
     }
 
     &__cards-container {
-        padding: $main-vertical-margin $main-horizontal-margin;
+        padding: 0 $main-horizontal-margin $main-vertical-margin $main-horizontal-margin;
         
     }
 
