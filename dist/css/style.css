@@ -456,22 +456,22 @@ body {
 
 @media all and (min-width: 560px) {
   .tutorial__container {
-    max-width: 560px;
+    max-width: 510px;
     margin: 60px auto;
   }
 
   .restaurants__heading {
-    max-width: 510px;
+    max-width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
   .restaurants__cards-container {
-    max-width: 510px;
+    max-width: 540px;
     margin: 0 auto;
   }
 
   .footer__container {
-    max-width: 560px;
+    max-width: 510px;
     margin: 0 auto;
   }
 }
