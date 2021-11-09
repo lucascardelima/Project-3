@@ -33,8 +33,9 @@
    .tutorial {
 
     &__container {
-        max-width: 1050px;
+        max-width: 1080px;
         margin: $main-vertical-margin auto;
+        padding: 0 1rem 0 1rem;
     }
 
     &__list {
@@ -50,7 +51,7 @@
 
    .restaurants {
        &__heading {
-           max-width: 1024px;
+           max-width: 1080px;
        }
 
        &__cards-container {
@@ -58,7 +59,7 @@
            grid-template-rows: 1fr 1fr;
            grid-template-columns: 1fr 1fr;
            column-gap: 2rem;
-           max-width: 1024px;
+           max-width: 1080px;
        }
    }
 
@@ -86,7 +87,7 @@
 
    .footer {
         &__container {
-            max-width: 1050px;
+            max-width: 1080px;
             margin: 0 auto;
         }
     }

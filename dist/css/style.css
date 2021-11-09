@@ -477,8 +477,9 @@ body {
 }
 @media all and (min-width: 1120px) {
   .tutorial__container {
-    max-width: 1050px;
+    max-width: 1080px;
     margin: 60px auto;
+    padding: 0 1rem 0 1rem;
   }
   .tutorial__list {
     display: flex;
@@ -490,14 +491,14 @@ body {
   }
 
   .restaurants__heading {
-    max-width: 1024px;
+    max-width: 1080px;
   }
   .restaurants__cards-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-    max-width: 1024px;
+    max-width: 1080px;
   }
 
   .cards--grid1 {
@@ -518,7 +519,7 @@ body {
   }
 
   .footer__container {
-    max-width: 1050px;
+    max-width: 1080px;
     margin: 0 auto;
   }
 }
