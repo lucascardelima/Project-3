@@ -1,0 +1,10 @@
+.header {
+    max-width: 100vw;
+    height: 4.5rem;
+    @include center(row);
+
+    &__logo {
+        font-size: 2.2em;
+        font-family: map-get($fonts, "logo");
+    }
+}

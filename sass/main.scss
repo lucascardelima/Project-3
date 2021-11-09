@@ -1,50 +1,16 @@
 @import 'variables';
 @import 'config';
+@import 'header';
+@import 'footer';
 @import 'homepage';
 @import 'menu';
 @import 'responsive';
 
 
 
-.header {
-    max-width: 100vw;
-    height: 4.5rem;
-    @include center(row);
 
-    &__logo {
-        font-size: 2.2em;
-        font-family: map-get($fonts, "logo");
-    }
-}
 
-p {
-    font-family: map-get($fonts, "text"), sans-serif;
-}
 
-.footer {
-    width: 100vw;
-    height: 100%;
-    color: white;
-    background-color: $footer-background-color;
-    
-    &__container{
-        margin: 0 $main-horizontal-margin 0 $main-horizontal-margin;
-        padding-bottom: 1.5rem;
-    }
 
-    &__logo {
-        font-family: map-get($fonts, "logo");
-        font-size: 1.5rem;
-        padding: 1.9rem 0rem;
-    }
 
-    &__icon {
-        padding-right: 0.8rem;
-    }
-
-    p {
-        font-size: 1.3rem;
-        margin-bottom: 0.8rem;
-    }
-}
 
