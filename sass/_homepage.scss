@@ -265,11 +265,12 @@
     -webkit-text-stroke-color: black;
     color: white;
     @include transition-button;
+    cursor: pointer;
     
     
     &:hover {
-        color: $secondary-color;
-        -webkit-text-stroke-color: $secondary-color;
+        color: $primary-color;
+        -webkit-text-stroke-color: $primary-color;
         
     }
 }

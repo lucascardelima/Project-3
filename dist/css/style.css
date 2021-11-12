@@ -327,10 +327,11 @@ body {
   -webkit-text-stroke-color: black;
   color: white;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 .fa-heart:hover {
-  color: #FF79DA;
-  -webkit-text-stroke-color: #FF79DA;
+  color: #9356DC;
+  -webkit-text-stroke-color: #9356DC;
 }
 
 .menu-header {
@@ -604,7 +605,8 @@ body {
   .footer__container {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 1.8rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
   }
 
   .menu-section {
