@@ -602,12 +602,22 @@ body {
   }
 
   .footer__container {
-    max-width: 1080px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 0 1.8rem;
   }
 
   .menu-section {
     max-width: 1300px;
+  }
+
+  .menu-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .course {
+    width: 32%;
   }
 }
 
