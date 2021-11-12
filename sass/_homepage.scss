@@ -1,3 +1,59 @@
+.loader {
+    
+
+    &__spinner-container {
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color:rgba(255, 255, 255, 0.90);
+        z-index: 1000;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        animation: loader 1s linear;
+        animation-delay: 1s;
+        animation-fill-mode: both;
+
+    }
+    
+    
+    &__spinner {
+        border: 16px solid $primary-background-color;
+        border-top: 16px solid $primary-color;
+        border-bottom: 16px solid $secondary-color;
+        border-radius: 50%;
+        width: 8rem;
+        height: 8rem;
+        animation: spin 2s linear infinite;
+    }
+}
+
+@keyframes loader {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 .briefing {
     @include center(column);
 
@@ -222,6 +278,20 @@
 
 .fa-utensils {
     padding-right: 9.1px;
+}
+
+.fa-heart {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    @include transition-button;
+    
+    
+    &:hover {
+        color: $secondary-color;
+        -webkit-text-stroke-color: $secondary-color;
+        
+    }
 }
 
 
