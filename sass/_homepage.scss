@@ -58,6 +58,11 @@
         @include box-shaddow;
         @include center(row);
         cursor: grab;
+        @include transition-button;
+
+        &:hover {
+            @include button-hover;
+        }
         
     }
 }
@@ -83,6 +88,7 @@
         margin-left: 10px;
         border-radius: 25px;
         cursor: grab;
+        @include transition-ease;
         
         @include box-shaddow;
 
@@ -111,6 +117,7 @@
             padding: 0rem 1.1rem;
             font-size: 1.2rem;
             width: 0.8rem;
+            @include transition-ease;
 
             
         }

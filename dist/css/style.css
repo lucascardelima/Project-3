@@ -119,6 +119,11 @@ p {
   align-items: center;
   flex-direction: row;
   cursor: grab;
+  transition: all 0.2s ease-in-out;
+}
+.description__button:hover {
+  opacity: 0.85;
+  transform: scale(103%);
 }
 
 .tutorial {
@@ -143,6 +148,7 @@ p {
   margin-left: 10px;
   border-radius: 25px;
   cursor: grab;
+  transition: all 0.4s ease-in-out;
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
 }
 .tutorial__step:hover {
@@ -169,6 +175,7 @@ p {
   padding: 0rem 1.1rem;
   font-size: 1.2rem;
   width: 0.8rem;
+  transition: all 0.4s ease-in-out;
 }
 .tutorial__step__text {
   display: flex;
@@ -424,14 +431,14 @@ body {
   border-top-right-radius: 1.1rem;
   border-bottom-right-radius: 1.1rem;
   margin-right: -70px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .meal__selector i {
   color: white;
   font-size: 1.2rem;
 }
 .meal__icon-wraper {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .order-btn {
@@ -452,6 +459,11 @@ body {
   flex-direction: row;
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
   cursor: grab;
+  transition: all 0.2s ease-in-out;
+}
+.order-btn:hover {
+  opacity: 0.85;
+  transform: scale(103%);
 }
 
 @media all and (min-width: 560px) {

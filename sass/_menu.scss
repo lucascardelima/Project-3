@@ -196,6 +196,12 @@ body {
     @include center(row);
     @include box-shaddow;
     cursor: grab;
+
+    @include transition-button;
+
+    &:hover {
+        @include button-hover;
+    }
 }
 
 
