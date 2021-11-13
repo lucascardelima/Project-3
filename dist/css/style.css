@@ -88,7 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: loader 1s linear;
+  animation: loader 2s linear;
   animation-delay: 1s;
   animation-fill-mode: both;
 }
@@ -443,6 +443,21 @@ body {
 }
 .meal--delay4 {
   animation-delay: 0.4s;
+}
+.meal--delay5 {
+  animation-delay: 0.5s;
+}
+.meal--delay6 {
+  animation-delay: 0.6s;
+}
+.meal--delay7 {
+  animation-delay: 0.7s;
+}
+.meal--delay8 {
+  animation-delay: 0.8s;
+}
+.meal--delay9 {
+  animation-delay: 0.9s;
 }
 .meal:hover .meal__selector {
   margin-right: 0px;
