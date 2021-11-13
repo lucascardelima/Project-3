@@ -30,7 +30,7 @@
   padding: 0;
 }
 
-p {
+p, a {
   font-family: "Roboto", sans-serif;
 }
 
@@ -69,9 +69,11 @@ body {
 .footer__icon {
   padding-right: 0.8rem;
 }
-.footer p {
+.footer p, .footer a {
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
+  text-decoration: none;
+  color: white;
 }
 
 .loader__spinner-container {
