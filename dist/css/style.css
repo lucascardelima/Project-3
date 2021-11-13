@@ -463,7 +463,7 @@ body {
   margin-right: 0px;
 }
 .meal:hover .meal__icon-wraper {
-  transform: rotate(-360deg);
+  transform: rotate(360deg);
 }
 .meal-container {
   display: flex;
