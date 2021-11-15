@@ -459,6 +459,9 @@ body {
 .meal--delay9 {
   animation-delay: 0.9s;
 }
+.meal--delay10 {
+  animation-delay: 1s;
+}
 .meal:hover .meal__selector {
   margin-right: 0px;
 }
