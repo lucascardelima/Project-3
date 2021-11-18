@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./dist/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./dist/css/style.css",
+    "prefix": "postcss ./dist/css/style.css --use autoprefixer -d ./dist/css/prefixed/"
   },
   "author": "Lucas Marchetti de Lima",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "last 4 versions"
 }
