@@ -209,8 +209,7 @@
     @include box-shaddow;
     cursor: grab;
 
-    @include transition-button(opacity);
-    @include transition-button(box-shaddow);
+    @include transition-button(all);
 
     &:hover {
         @include button-hover;
