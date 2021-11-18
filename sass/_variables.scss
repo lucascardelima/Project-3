@@ -40,12 +40,12 @@ $font-weight: (
     margin-bottom: 30px;
 }
 
-@mixin transition-ease {
-    transition: all 400ms ease-in-out;
+@mixin transition-ease($property) {
+    transition: $property 400ms ease-in-out;
 }
 
-@mixin transition-button {
-    transition: all 200ms ease-in-out;
+@mixin transition-button($property) {
+    transition: $property 200ms ease-in-out;
 }
 
 @mixin button-hover {

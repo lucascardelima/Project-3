@@ -94,7 +94,8 @@
         @include box-shaddow;
         @include center(row);
         cursor: grab;
-        @include transition-button;
+        @include transition-button(opacity);
+        @include transition-button(box-shaddow);
 
         &:hover {
             @include button-hover;
@@ -124,7 +125,7 @@
         margin-left: 10px;
         border-radius: 25px;
         cursor: grab;
-        @include transition-ease;
+        @include transition-ease(background-color);
         
         @include box-shaddow;
 
@@ -153,7 +154,7 @@
             padding: 0rem 1.1rem;
             font-size: 1.2rem;
             width: 0.8rem;
-            @include transition-ease;
+            @include transition-ease(color);
 
             
         }
@@ -264,7 +265,8 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
-    @include transition-button;
+    @include transition-button(color);
+    @include transition-button(-webkit-text-stroke-color);
     cursor: pointer;
     
     

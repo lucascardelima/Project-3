@@ -167,7 +167,8 @@ body {
   align-items: center;
   flex-direction: row;
   cursor: grab;
-  transition: all 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+  transition: box-shaddow 200ms ease-in-out;
 }
 .description__button:hover {
   opacity: 0.85;
@@ -196,7 +197,7 @@ body {
   margin-left: 10px;
   border-radius: 25px;
   cursor: grab;
-  transition: all 400ms ease-in-out;
+  transition: background-color 400ms ease-in-out;
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
 }
 .tutorial__step:hover {
@@ -223,7 +224,7 @@ body {
   padding: 0rem 1.1rem;
   font-size: 1.2rem;
   width: 0.8rem;
-  transition: all 400ms ease-in-out;
+  transition: color 400ms ease-in-out;
 }
 .tutorial__step__text {
   display: flex;
@@ -328,7 +329,8 @@ body {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: white;
-  transition: all 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+  transition: -webkit-text-stroke-color 200ms ease-in-out;
   cursor: pointer;
 }
 .fa-heart:hover {
@@ -517,14 +519,14 @@ body {
   border-top-right-radius: 1.1rem;
   border-bottom-right-radius: 1.1rem;
   margin-right: -70px;
-  transition: all 400ms ease-in-out;
+  transition: margin-right 400ms ease-in-out;
 }
 .meal__selector i {
   color: white;
   font-size: 1.2rem;
 }
 .meal__icon-wraper {
-  transition: all 400ms ease-in-out;
+  transition: transform 400ms ease-in-out;
 }
 
 .order-btn {
@@ -545,7 +547,8 @@ body {
   flex-direction: row;
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
   cursor: grab;
-  transition: all 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+  transition: box-shaddow 200ms ease-in-out;
 }
 .order-btn:hover {
   opacity: 0.85;

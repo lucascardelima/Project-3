@@ -179,7 +179,7 @@
         border-top-right-radius: 1.1rem;
         border-bottom-right-radius: 1.1rem;
         margin-right: -70px;
-        @include transition-ease;
+        @include transition-ease(margin-right);
         
         i {
             color: white;
@@ -188,7 +188,7 @@
     }
 
     &__icon-wraper {
-        @include transition-ease;
+        @include transition-ease(transform);
     }
 }
 
@@ -209,7 +209,8 @@
     @include box-shaddow;
     cursor: grab;
 
-    @include transition-button;
+    @include transition-button(opacity);
+    @include transition-button(box-shaddow);
 
     &:hover {
         @include button-hover;
