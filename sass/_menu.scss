@@ -109,7 +109,7 @@
 
     @for $i from 1 through 10 {
         &--delay#{$i} {
-            animation-delay: ($i * 0.1s);
+            animation-delay: ($i * 100ms);
         }
     }
 

@@ -167,7 +167,7 @@ body {
   align-items: center;
   flex-direction: row;
   cursor: grab;
-  transition: all 0.2s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .description__button:hover {
   opacity: 0.85;
@@ -196,7 +196,7 @@ body {
   margin-left: 10px;
   border-radius: 25px;
   cursor: grab;
-  transition: all 0.4s ease-in-out;
+  transition: all 400ms ease-in-out;
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
 }
 .tutorial__step:hover {
@@ -223,7 +223,7 @@ body {
   padding: 0rem 1.1rem;
   font-size: 1.2rem;
   width: 0.8rem;
-  transition: all 0.4s ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .tutorial__step__text {
   display: flex;
@@ -328,7 +328,7 @@ body {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: white;
-  transition: all 0.2s ease-in-out;
+  transition: all 200ms ease-in-out;
   cursor: pointer;
 }
 .fa-heart:hover {
@@ -433,34 +433,34 @@ body {
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
 }
 .meal--delay1 {
-  animation-delay: 0.1s;
+  animation-delay: 100ms;
 }
 .meal--delay2 {
-  animation-delay: 0.2s;
+  animation-delay: 200ms;
 }
 .meal--delay3 {
-  animation-delay: 0.3s;
+  animation-delay: 300ms;
 }
 .meal--delay4 {
-  animation-delay: 0.4s;
+  animation-delay: 400ms;
 }
 .meal--delay5 {
-  animation-delay: 0.5s;
+  animation-delay: 500ms;
 }
 .meal--delay6 {
-  animation-delay: 0.6s;
+  animation-delay: 600ms;
 }
 .meal--delay7 {
-  animation-delay: 0.7s;
+  animation-delay: 700ms;
 }
 .meal--delay8 {
-  animation-delay: 0.8s;
+  animation-delay: 800ms;
 }
 .meal--delay9 {
-  animation-delay: 0.9s;
+  animation-delay: 900ms;
 }
 .meal--delay10 {
-  animation-delay: 1s;
+  animation-delay: 1000ms;
 }
 .meal:hover .meal__selector {
   margin-right: 0px;
@@ -517,14 +517,14 @@ body {
   border-top-right-radius: 1.1rem;
   border-bottom-right-radius: 1.1rem;
   margin-right: -70px;
-  transition: all 0.4s ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .meal__selector i {
   color: white;
   font-size: 1.2rem;
 }
 .meal__icon-wraper {
-  transition: all 0.4s ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 .order-btn {
@@ -545,7 +545,7 @@ body {
   flex-direction: row;
   box-shadow: 7px 7px 15px rgba(211, 211, 211, 0.651);
   cursor: grab;
-  transition: all 0.2s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .order-btn:hover {
   opacity: 0.85;
